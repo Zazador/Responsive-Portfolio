@@ -234,8 +234,24 @@ textarea {
 		float: none;
 	}
 	nav {
-	margin-right: 75px;
-}
+		margin-right: 225px;
+	}
+	.name {
+		margin-left: 75px;
+	}
+	.aboutContainer {
+		margin-left: 75px;
+	}
+	.innerAboutContainer {
+		width: 400px;
+	}
+	p {
+		font-size: 18px;
+	}
+	.connect {
+		float: none;
+		margin-left: 50px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -257,6 +273,7 @@ textarea {
 		display: block;
 		text-align: center;
 		max-width: 590px;
+		margin-left: 0;
 	}
 	.aboutContainer {
 		max-width: 640px;
