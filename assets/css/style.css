@@ -223,7 +223,19 @@ textarea {
 }
 
 @media screen and (max-width: 980px) {
-
+	.header {
+		max-width: 980px;
+	}
+	.innerSection {
+		max-width: 980px;
+		width: 980px;
+	}
+	.profilePic {
+		float: none;
+	}
+	nav {
+	margin-right: 75px;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -238,8 +250,8 @@ textarea {
 		position: static;
 		max-width: 640px;
 	}
-	.innderHeader {
-		width: 100%;
+	.innerHeader {
+		max-width: 640px;
 	}
 	.name {
 		display: block;
@@ -247,7 +259,12 @@ textarea {
 		max-width: 590px;
 	}
 	.aboutContainer {
-		width: 100%;
+		max-width: 640px;
+		margin: 0 15px 0 15px;
+	}
+	.innerAboutContainer {
+		max-width: 640px;
+		float: none;
 	}
 	nav {
 		float: none;
@@ -255,5 +272,13 @@ textarea {
 	.innerSection {
 		max-width: 640px;
 	}
+	.connect {
+		float: none;
+		display: block;
+	}
+	.profilePic {
+		float: none;
+	}
+
 
 }
