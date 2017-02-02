@@ -96,12 +96,12 @@ nav {
 }
 
 nav ul li {
-    list-style-type: none;
-    display: inline;
+	list-style-type: none;
+	display: inline;
 }
 
 nav li:not(:first-child):before {
-    content: " | ";
+	content: " | ";
 }
 
 body {
@@ -128,16 +128,16 @@ form {
 	position: absolute;
 	text-align: center;
 	right: 0;
-  	bottom: 0;
-  	left: 0;
+	bottom: 0;
+	left: 0;
 	background-color: #666666;
-  	padding: 45px 45px 45px 45px;
-  	border-top: thick solid #4aaaa5;
+	padding: 45px 45px 45px 45px;
+	border-top: thick solid #4aaaa5;
 }
 
 .innerSection {
 	width: 960px;
-  	margin: 0 auto;
+	margin: 0 auto;
 }
 
 .inputFields {
@@ -220,4 +220,40 @@ textarea {
 	width: 275px;
 	text-align: center;
 	font-size: 22px;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+	body {
+
+	}
+	.header {
+		position: static;
+		max-width: 640px;
+	}
+	.innderHeader {
+		width: 100%;
+	}
+	.name {
+		display: block;
+		text-align: center;
+		max-width: 590px;
+	}
+	.aboutContainer {
+		width: 100%;
+	}
+	nav {
+		float: none;
+	}
+	.innerSection {
+		max-width: 640px;
+	}
+
 }
