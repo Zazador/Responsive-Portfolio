@@ -255,7 +255,46 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
+	.header {
+		max-width: 768px;
+	}
+	.innerSection {
+		max-width: 768px;
+		width: 768px;
+	}
+	.profilePic {
+		float: left;
+	}
+	nav {
+		margin-right: 225px;
+	}
+	.name {
+		margin-left: 75px;
+	}
+	.aboutContainer {
+		margin-left: 75px;
 
+	}
+	.innerAboutContainer {
+		width: 650px;
+		float: none;
+	}
+	p {
+		font-size: 18px;
+	}
+	.connect {
+		width: 650px;
+		display: block;
+		float: none;
+		margin-left: 0;
+		margin-top: 25px;
+	}
+	.connectHeader {
+		text-align: left;
+	}
+	.pictures {
+		text-align: left;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -288,6 +327,7 @@ textarea {
 	}
 	.innerSection {
 		max-width: 640px;
+		display: block;
 	}
 	.connect {
 		float: none;
@@ -296,6 +336,5 @@ textarea {
 	.profilePic {
 		float: none;
 	}
-
 
 }
